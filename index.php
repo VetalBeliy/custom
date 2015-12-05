@@ -9,7 +9,7 @@ include_once "a_controller.php";
 			$this->_template = "index.html";
 		}
 	
-		function output() {
+		function output() { //it's a function output
 			include($this->_template);
 		}
 	}
